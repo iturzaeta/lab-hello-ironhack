@@ -1,8 +1,18 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
+import FeatureList from './FeatureList'
+import Main from './Main'
+import './App.css'
 
 class App extends Component {
   render() {
-    return <h1>Hello!</h1>
+    return (
+    <div className="App">
+      <Main/>
+      <FeatureList/>
+    </div>
+      
+    
+    )
   }
 }
 
